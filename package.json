@@ -1,0 +1,39 @@
+{
+  "name": "nmcnpm.20221-nhom2",
+  "version": "1.0.0",
+  "description": "SoftwareEng-Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed_admin": "npx run-func .\\utils\\seeder.js adminInit",
+    "seed_fee": "npx run-func .\\utils\\seeder.js feeInit",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andiezz/NMCNPM.20221-Nhom2.git"
+  },
+  "author": "Andiezz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andiezz/NMCNPM.20221-Nhom2/issues"
+  },
+  "homepage": "https://github.com/Andiezz/NMCNPM.20221-Nhom2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "config": "^3.3.8",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "twilio": "^3.84.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
